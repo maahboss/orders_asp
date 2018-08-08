@@ -1,0 +1,34 @@
+﻿@model ordersApp.ViewModels.RandomOrderViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ 
+    var className = Model.Customers.Count > 0 ? "popular" : null;
+}
+
+<h2 class="@className">@Model.Order.Name</h2>
+
+@if (Model.Customers.Count == 0)
+{
+    <text>No Customers has this Order</text>
+}
+else
+{
+    <ul>
+
+
+
+        @foreach (var customer in Model.Customers)
+        {
+
+            <li>@customer.Name</li>
+
+        }
+
+
+    </ul>
+
+}
+
