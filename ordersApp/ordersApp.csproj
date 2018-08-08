@@ -206,11 +206,28 @@
     <Compile Include="Migrations\201808081204424_InitialModel.Designer.cs">
       <DependentUpon>201808081204424_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808081223109_AddIsSubToNews.cs" />
+    <Compile Include="Migrations\201808081223109_AddIsSubToNews.Designer.cs">
+      <DependentUpon>201808081223109_AddIsSubToNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808081531379_AddMemebership.cs" />
+    <Compile Include="Migrations\201808081531379_AddMemebership.Designer.cs">
+      <DependentUpon>201808081531379_AddMemebership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808081535053_populationMemberShipType.cs" />
+    <Compile Include="Migrations\201808081535053_populationMemberShipType.Designer.cs">
+      <DependentUpon>201808081535053_populationMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808081552097_applyrequire.cs" />
+    <Compile Include="Migrations\201808081552097_applyrequire.Designer.cs">
+      <DependentUpon>201808081552097_applyrequire.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -300,6 +317,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201808081204424_InitialModel.resx">
       <DependentUpon>201808081204424_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808081223109_AddIsSubToNews.resx">
+      <DependentUpon>201808081223109_AddIsSubToNews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808081531379_AddMemebership.resx">
+      <DependentUpon>201808081531379_AddMemebership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808081535053_populationMemberShipType.resx">
+      <DependentUpon>201808081535053_populationMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808081552097_applyrequire.resx">
+      <DependentUpon>201808081552097_applyrequire.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
